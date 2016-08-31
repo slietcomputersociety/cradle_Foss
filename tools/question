@@ -1,0 +1,132 @@
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   CONTRIBUTING.md
+ques: if i have new changes to be staged and i commit the files does new comment get added to the commit made or added to next commit once it is added to staging area ?
+
+ques :git reset HEAD <file>... to unstage ?
+
+which we can refer to using the HEAD pointer?
+git diff head
+The HEAD is a pointer that holds your position within all your different commits. By default HEAD points to your most recent commit, so it can be used as a quick way to reference that commit without having to look up the SHA.
+
+files can be changed back to how they were at the last commit by using the command: git checkout -- <target>. Go ahead and get rid of all the changes since the last commit for octocat.txt.
+git checkout -- octocat.txt
+
+So you may be wondering, why do I have to use this '--' thing? git checkout seems to work fine without it. It's simply promising the command line that there are no more options after the '--'. This way if you happen to have a branch named octocat.txt, it will still revert the file, instead of switching to the branch of the same name.
+
+
+$ vim CONTRIBUTING.md
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    new file:   README
+    modified:   CONTRIBUTING.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   CONTRIBUTING.md
+
+
+
+What the heck? Now CONTRIBUTING.md is listed as both staged and unstaged.
+
+
+fatal error origin already exist 
+git remote rm origin
+git remote add origin git@github.com:username/myapp.git
+
+or
+
+http://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists
+
+
+what are fetch used for diff from pull ?
+
+
+https://git-scm.com/docs/git-remote
+
+
+
+origin is the default name used by git clone, but you can use any other name when cloning:
+
+--origin <name>
+-o <name>
+
+
+
+https://github.com/github/gitignore
+
+
+http://up-for-grabs.net/#/
+
+The longer command is available in case you need it (e.g. git push might push to the official public repo and git push review master can be used to push to a separate remote which your team uses to review code). You can set your branch to be a tracking branch using the --set-upstream option of the git branch command.
+
+
+Look at what happens when we explicitly add do-not-track-me.txt to the .gitignore file:
+~/tests4geeks/tests4geeks-git-demo $ touch .gitignore
+~/tests4geeks/tests4geeks-git-demo $ echo "do-not-track-me.txt" >> .gitignore
+~/tests4geeks/tests4geeks-git-demo $ cat .gitignore
+do-not-track-me.txt
+~/tests4geeks/tests4geeks-git-demo $ touch anotherfile.txt
+~/tests4geeks/tests4geeks-git-demo $ git add .
+~/tests4geeks/tests4geeks-git-demo $ git status
+
+
+If you want Git to stop tracking a file, but you don’t want to actually delete the file, use the cached option: git remove --cached <filename>
+
+
+The method that I prefer is to write the commit message in a file, and then specify the contents of that file as the message to use when making the commit. For instance, you could write the commit message in a file called commit.txt. Then, to use that file’s contents as the commit message, run git commit with the -F option: git commit -F commit.txt
+I usually add commit.txt to my .gitignore file.
+
+
+####### keeping credential safe :
+
+If you don’t want to maintain an actual settings file, plus a sample settings file, you can keep the secret API key in an environment variable and your settings file would look like this:
+
+import os
+
+SECRET_API_KEY = os.environ['MYPROJECT_SECRET_API_KEY']
+To make this method convenient, I store project specific environment variables in a file called envars.sh or myproject-envars.sh and then make sure that file is either included in the repo’s .gitignore file, or is kept on an entirely separate path, so there is no chance of the secret environment variable values accidentally being committed to the Git repository.
+
+Then, all sensitive values are easily included by using source before running your code, e.g.:
+
+source myproject-envars.sh && python run_my_project.py
+Keeping sensitive data in an envars.sh file is also a convenient way send proper configuration values to other developers or to a remote server.
+
+#########
+
+
+
+
+question :cloning via https and ssh ?
+
+https://tests4geeks.com/tutorials/github-tutorial-learn-git-commands/
+
+ques : git Branching ?
+
+
+ques:
+If you happen to delete a file without using 'git rm' you'll find that you still have to 'git rm' the deleted files from the working tree. You can save this step by using the '-a' option on 'git commit', which auto removes deleted files with the commit.
+git commit -am "Delete stuff" 
+
+
+note:
+anyone can comment on pull request 
+they can also checkout your branch,commit and add their changes to ur pr.
+once added to pull request anhy commit made and added to fork gets added to it
+
+echo and touch 
+
+upstream is main rep
+
+##############
+updating fork (due to multiple user contributing simultaneosuly we need others code too)
+git remote add upstream <path of repo>	
+

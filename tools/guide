@@ -1,0 +1,161 @@
+As a student, getting involved in open source is a great way to improve your programming skills. From my experience, it can even help kickstart your career. But where do you begin? And how do you get involved?
+
+I started my open source journey during my high school days when I had a lot more free time on my hands (and lived on IRC). It was through that experience that I learned how to contribute to open source through communication media like IRC and Usenet. Open source has grown since those olden days, and there are now more formal ways to get involved with open source as a student.
+
+Programs for university students
+
+Google Summer of Code
+
+Google Summer of Code (GSOC) is a global program that offers students stipends to write code for open source projects. Student participants get paired with open source project mentors to create software. On top of getting paid, they build connections within the open source community. From my experience, these connections could lead to future employment opportunities.
+
+There are over 100 open source organizations that take part in GSOC, from the Apache Software Foundation to Mozilla and more. I find it to be one of the best programs out there for students to get started in open source. If you're interested in participating in GSOC, the 2016 application window opens March 14.
+
+Outreachy (formerly known as Outreach Program for Women)
+
+Outreachy takes people from groups underrepresented in free and open source software and guides them through their first contribution. The program provides a supportive community for beginning to contribute and offers focused internship opportunities twice a year with a number of free software organizations. Applications for the 2016 program will open February 9 and close March 22.
+
+Rails Summer of Code
+
+Rails Girls Summer of Code is a global fellowship program aimed at bringing more diversity into open source. Successful female applicants are paid a monthly stipend (July-September) to work on open source projects of their choice. The 2015 program was a roaring success, with 16 teams participating.
+
+Facebook Open Academy
+
+The Facebook Open Academy (FOA) program promotes collaboration between universities and open source organizations. FOA is similar in spirit to GSOC, but students end up participating by taking a normal university course. The course begins with a kickoff event in which all parties come together for an intensive weekend of learning and hacking. After the kickoff, students return to their home universities and continue work in virtual teams. The mentors continue to support the teams during the rest of the project. The course instructors at each university meet with student teams at regular intervals to review progress. Some instructors overlay a lecture series to provide further learning opportunities to students. At the end of the program, students receive a grade.
+
+University Clubs and Programs
+
+One thing to look out for if you're at university is to see if there are any associated open source clubs. For example, Oregon State University (OSU) has the OSU Open Source Club and even a OSU Open Source Lab; other universities may have similar clubs to help you get involved with open source. Some universities are even formalizing minors around open source, for example, in 2014, RIT launched the first minor degree in open source software.
+
+Programs for pre-university students
+
+Google Code-in
+
+For the younger crowd, Google Code-in is an annual programming competition that allows students aged 13-17 to complete tasks specified by various open source organizations. These open source organizations range from Drupal to KDE and even the Wikimedia Foundation. Over the past five years, 2,233 students from 87 countries have completed 12,495 open source tasks through the competition.
+
+Students who complete one task earn a certificate, and students who complete three tasks earn an extra T-shirt. At the end of the competition, each organization will choose two students as the grand prize award winners and they will visit Google HQ.
+
+This year's Google Code-in competition is already underway and ends January 25.
+
+Conferences and travel scholarships
+
+Attending an open source related conference is a great way to get involved with an open source project and community. There is usually a beginner track at conferences to help first time contributors. You also have the opportunity to network with committers and community members.
+
+On the downside, as a student, finances are most likely tight. On the bright side, there are conferences offering travel grants for students and underrepresented groups. PyCon, for example, has a financial assistance program, and StrangeLoop has opportunity grants. For women, the Grace Hopper Conference offers scholarship grants you can apply for every year. If you're into Linux, every LinuxCon has deeply discounted tickets for students and a diversity scholarship program.
+
+These are just a few of my favorite conferences that offer travel assistance or scholarships. For a more thorough list see the OpenHatch wiki.
+
+Finding mentors and beginner issues
+
+Another way to get involved in open source is to find a great mentor. In certain large open source organizations, there are formal mentoring programs you can take part in. For example, the Fedora project has a list of mentors offering help depending on your interests. Mozilla has a great website on how to contribute and find mentors to get involved. Furthermore, Mozilla has a great volunteer site for those who want to contribute design or translation skills if you're not a programmer.
+
+There are also some open source projects that mark issues as beginner-friendly. To find them, I highly recommend visiting the OpenHatch issues page or Up For Grabs site, or search issuehub.io for beginner issues on GitHub. As a bonus, feel free to check out the 24 Pull Requests initiative, which provides a listing of projects you can contribute to at the end of each year during the holidays.
+
+Pay it forward
+
+It's important to remember that we were all students at one time and everyone starts their open source journey somewhere. If you're reading this as a student, I hope you find these resources useful to get started (please note there are more programs out there than I listed). If you're reading this as an experienced open source developer, remember to pay it forward, we owe it to the future generation of open source developers to spend time mentoring them and lowering the barriers to contribution.
+
+
+quora link
+https://www.quora.com/What-are-some-good-beginner-level-open-source-projects-online-that-I-can-involve-myself-in
+
+https://www.quora.com/What-are-the-pros-and-cons-of-open-source
+
+http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/
+
+http://programmers.stackexchange.com/questions/22809/why-develop-free-open-source-programs
+
+https://www.quora.com/What-are-some-open-source-question-answer-applications-like-Quora
+
+https://github.com/tiimgreen/github-cheat-sheet#readme
+
+https://opensource.com/education/12/7/clearing-open-source-misconceptions
+
+http://blog.smartbear.com/open-source/how-to-turn-your-pile-of-code-into-an-open-source-project/
+
+free documentation creator 
+
+https://www.quora.com/What-is-the-best-documentation-tool-you-can-use-for-both-web-and-desktop-software-documentation
+
+http://www.infoworld.com/article/2982920/open-source-tools/bossie-awards-2015-the-best-open-source-application-development-tools.html
+
+http://www.datamation.com/open-source/101-open-source-tools-for-developers-1.html
+
+https://github.com/ripienaar/free-for-dev/blob/master/README.md
+
+https://github.com/Kickball/awesome-selfhosted
+
+http://stackoverflow.com/questions/16820336/what-is-saas-paas-and-iaas-with-examples
+
+https://github.com/github/gitignore
+
+https://punchagan.muse-amuse.in/posts/i-love-foss-how-do-i-start-contributing-code.html
+
+https://github.com/sindresorhus/awesome	
+(search guide)
+
+https://github.com/Kickball/awesome-selfhosted
+
+https://github.com/tiimgreen/github-cheat-sheet#readme
+
+https://guides.github.com/activities/contributing-to-open-source/
+
+http://blog.hackerearth.com/2014/03/how-to-get-started-with-open-source.html(better)
+
+http://www.firsttimersonly.com/
+
+http://up-for-grabs.net/#/
+
+slack
+
+gitter
+
+meetups
+
+licensing
+
+
+
+
+git
+
+The flagship functionality of GitHub is “forking” – copying a repository from one user’s account to another. This enables you to take a project that you don’t have write access to and modify it under your own account. If you make changes you’d like to share, you can send a notification called a “pull request” to the original owner. That user can then, with a click of a button, merge the changes found in your repo with the original repo.
+
+
+These three features – fork, pull request and merge – are what make GitHub so powerful. Gregg Pollack of Code School (which just launched a class called TryGit) explains that before GitHub, if you wanted to contribute to an open source project you had to manually download the project’s source code, make your changes locally, create a list of changes called a “patch” and then e-mail the patch to the project’s maintainer. The maintainer would then have to evaluate this patch, possibly sent by a total stranger, and decide whether to merge the changes.
+
+
+https://www.quora.com/What-are-some-interesting-facts-on-GitHub
+
+https://opensource.org/
+
+http://choosealicense.com/
+
+https://opensource.com/education/14/6/16-foss-principles-for-educators
+
+(((((((((((((((What is OpenStack?
+What is Docker?
+What are Linux containers?
+What is big data?
+What is an Arduino?
+What is Raspberry Pi?
+What is software defined networking?
+What are microservices?
+What is the Internet of Things?
+What is Vagrant?
+What is Kubernetes?)))))))))))))))))))))))
+
+
+
+site to host your project:
+Other options for hosting open source projects include:
+
+BitBucket
+SourceForge
+Google Code
+Gitorious
+
+
+three ways
+1.particular org like mozilla(for interns)
+2.second contributing to github projects(for cv build this is whole diff world)
+

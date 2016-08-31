@@ -1,0 +1,15 @@
+When developers are working on a feature or bug they'll often create a copy (aka. branch) of their code they can make separate commits to. Then when they're done they can merge this branch back into their main master branch.
+
+We want to remove all these pesky octocats, so let's create a branch called clean_up, where we'll do all the work:
+
+git branch clean_up
+
+
+Branching
+Branches are what naturally happens when you want to work on multiple features at the same time. You wouldn't want to end up with a master branch which has Feature A half done and Feature B half done.
+Rather you'd separate the code base into two "snapshots" (branches) and work on and commit to them separately. As soon as one was ready, you might merge this branch back into the master branch and push it to the remote server.
+
+
+You can switch branches using the git checkout <branch> command. Try it now to switch to the clean_up branch:
+
+git checkout clean_up
